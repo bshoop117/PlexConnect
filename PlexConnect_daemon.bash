@@ -18,7 +18,7 @@ while [ -h "$SOURCE" ]; do
 done
 INSTALL_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
-PYTHON="python"
+PYTHON="/usr/local/bin/python"
 PROGRAM="${INSTALL_DIR}/${PNAME}.py"
 PID_FILE="/var/${PNAME}.pid"
 
