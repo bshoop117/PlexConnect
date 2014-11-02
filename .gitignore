@@ -16,3 +16,5 @@ PlexConnect.log
 *.der
 
 /assets/fanartcache/*.jpg
+
+logs/
