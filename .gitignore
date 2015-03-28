@@ -18,3 +18,9 @@ PlexConnect.log
 /assets/fanartcache/*.jpg
 
 logs/
+=======
+*.pyproj
+
+*.sln
+
+*.suo

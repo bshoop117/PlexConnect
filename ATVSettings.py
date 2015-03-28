@@ -10,19 +10,21 @@ from Debug import *  # dprint()
 
 
 options = { \
-    'showplaylists'     :('True', 'False'), \
-    'showsharedlibrarys':('True', 'False'), \
-    'libraryview'       :('List', 'Grid', 'Bookcase'), \
-    'movieview'         :('Grid', 'List', 'Detailed List'), \
-    'homevideoview'     :('Grid', 'List', 'Detailed List'), \
-    'actorview'         :('Movies', 'Portrait'), \
-    'showview'          :('List', 'Detailed List', 'Grid', 'Bookcase'), \
-    'flattenseason'     :('False', 'True'), \
-    'seasonview'        :('List', 'Coverflow'), \
-    'channelview'       :('List', 'Grid', 'Bookcase'), \
-    'durationformat'    :('Hours/Minutes', 'Minutes'), \
-    'moviefanart'       :('Hide', 'Show'), \
-    'tvshowfanart'          :('Hide', 'Show'), \
+    'playlistsview'             :('List', 'Tabbed List', 'Hide'), \
+    'libraryview'               :('List', 'Grid', 'Bookcase', 'Hide'), \
+    'sharedlibrariesview'       :('List', 'Grid', 'Bookcase', 'Hide'), \
+    'channelview'               :('List', 'Tabbed List', 'Grid', 'Bookcase', 'Hide'), \
+    'movieview'                 :('Grid', 'List', 'Detailed List'), \
+    'homevideoview'             :('Grid', 'List', 'Detailed List'), \
+    'actorview'                 :('Movies', 'Portrait'), \
+    'showview'                  :('List', 'Detailed List', 'Grid', 'Bookcase'), \
+    'flattenseason'             :('False', 'True'), \
+    'seasonview'                :('List', 'Coverflow'), \
+    'durationformat'            :('Hours/Minutes', 'Minutes'), \
+    'moviefanart'               :('Hide', 'Show'), \
+    'tvshowfanart'              :('Hide', 'Show'), \
+    'fanart_blur'               :('0', '5', '10', '15', '20'), \
+    'moviepreplay_bottomshelf'  :('Extras', 'Related Movies'), \
     'showtitles_movies'         :('Highlighted Only', 'Show All'), \
     'showtitles_tvshows'        :('Highlighted Only', 'Show All'), \
     'showtitles_homevideos'     :('Highlighted Only', 'Show All'), \
@@ -71,6 +73,9 @@ options = { \
     'timeformat'        :('24 Hour', '12 Hour'), \
     'myplex_user'       :('', ), \
     'myplex_auth'       :('', ), \
+    'plexhome_enable'   :('False', 'True'), \
+    'plexhome_user'     :('', ), \
+    'plexhome_auth'     :('', ), \
     }
 
 
